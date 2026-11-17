@@ -20,8 +20,8 @@ Un asistente de autocompletado global en tiempo real para escritorio desarrollad
 
 1. **Clonar este repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/asistente-escritura-ia.git
-   cd asistente-escritura-ia
+   git clone https://github.com/TIOLICEO/Proyecto-Infinity.git
+   cd Proyecto-Infinity/tools/writing-assistant
    ```
 
 2. **Instalar las dependencias:**
@@ -32,14 +32,14 @@ Un asistente de autocompletado global en tiempo real para escritorio desarrollad
 
 3. **Ejecutar la aplicación:**
    ```bash
-   python asistente_ia_completo.py
+   python asistente_ia.py
    ```
 
 ---
 
 ## ⌨️ Cómo Usarlo
 
-1. Abre la aplicación ejecutando `asistente_ia_completo.py`.
+1. Abre la aplicación ejecutando `asistente_ia.py`.
 2. Elige el **Modo de operación**:
    * **IA Gemini 2.5**: Pega tu API Key de Google AI Studio y haz clic en **Guardar Config**.
    * **Diccionario Local (Offline)**: Ideal para probar de inmediato escribiendo palabras como `hola`, `como`, `py`, `pro`, `gra`, `tk`.
@@ -57,6 +57,6 @@ Si deseas distribuir la aplicación en Windows sin requerir que el usuario tenga
 
 ```bash
 pip install pyinstaller
-pyinstaller --name AsistenteEscrituraIA --windowed --onefile asistente_ia_completo.py
+pyinstaller --name AsistenteEscrituraIA --windowed --onefile asistente_ia.py
 ```
 El archivo ejecutable final aparecerá dentro de la carpeta `dist/`.
